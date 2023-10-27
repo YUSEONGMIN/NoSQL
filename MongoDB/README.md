@@ -1,4 +1,21 @@
-# MongoDB 실습
+# MongoDB
+
+## RDBMS 용어와 비교
+
+| RDBMS | | MongoDB |
+| --- | --- | --- |
+| Database | | Database |
+| Table | | Collection |
+| Tuple / Row | | Document |
+| Column | | Key / Field |
+| Table Join | | Embedded Documents |
+| Primary Key | | Primary Key (_id) |
+
+- Document 기반의 데이터베이스 <-> RDBMS는 Row 단위의 레코드 기반
+- 각각의 Document에는 _id 라는 ObjectID 타입의 값을 가짐
+- BASE(Basically Available, Soft state, Eventually consistent): 가용성을 우선시
+
+## MongoDB 실습
 
 > 실습 환경  
 > MongoDB: 7.0.2  
